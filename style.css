@@ -29,6 +29,27 @@
     font-weight: 500;
   }
 
+  #about{
+    background-color: beige;
+  }
+  
+  .col img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    padding-bottom: 20px;
+  }
+  
+  #about p{
+    max-width: 400px;
+  }
+  
+  .image_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .nav_container{
   display: flex;
   justify-content: start;
@@ -114,7 +135,7 @@ footer {
 
 
 .footer-distributed {
-  background-color:#938274;
+  background-color:black;
   box-sizing: border-box;
   width: 100%;
   text-align: left;
